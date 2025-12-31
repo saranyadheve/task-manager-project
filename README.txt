@@ -132,3 +132,62 @@ Include your Postman collection: TaskManager.postman_collection.json
 
 Author
 SARANYA DHEVE B
+
+Logs & Proof of Working
+
+This section contains execution proof screenshots demonstrating that the frontend, backend, and database are properly connected and functioning.
+
+Backend Server Running (FastAPI)
+
+Backend started successfully using Uvicorn.
+
+APIs tested using browser/Postman.
+
+SCREENSHOTS:
+
+logs/backend.png 
+logs/backend 2.png
+
+
+MySQL Database Connection Proof
+
+MySQL server connected successfully.
+
+Task data created from frontend is stored in MySQL database.
+
+SCREENSHOTS:
+
+logs/database.png
+logs/database 2.png
+
+
+Authentication & CRUD Flow
+
+User registration and login tested.
+
+JWT token generated and used for protected routes.
+
+Tasks can be created, updated, deleted, and fetched.
+
+SCREENSHOTS:
+
+logs/frontend.png
+logs/frontend 2.png
+
+Project Status
+
+✔ Frontend–Backend integration completed
+✔ MySQL database connected and verified
+✔ Authentication implemented using JWT
+✔ CRUD operations working correctly
+✔ Project ready for evaluation
+
+Notes for Evaluators
+
+All screenshots are available inside the logs/ folder.
+
+The project follows modular structure for scalability.
+
+Security best practices like password hashing and token validation are implemented.
+
+
